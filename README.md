@@ -8,9 +8,13 @@ This project enables real-time video processing across multiple sources, includi
 ### 📌 Features
 
 ✅ Supports multiple input sources (Webcams, Video Files, RTSP Streams)
+
 ✅ Uses multiprocessing for parallel video processing
+
 ✅ Converts video frames to grayscale (as an example)
+
 ✅ Saves processed videos in the output_videos/ directory
+
 ✅ Allows input source configuration via command-line arguments
 #
 
