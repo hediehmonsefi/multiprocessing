@@ -65,6 +65,7 @@ import cv2
 gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 edge_frame = cv2.Canny(gray_frame, 100, 200)  # Apply edge detection
 out.write(edge_frame)
+cv2.imshow(f"Processing: {self.source}", edge_frame)
 ```
 Now, instead of grayscale, the output will show edge-detected frames.
 
