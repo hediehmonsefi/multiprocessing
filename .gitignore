@@ -175,3 +175,4 @@ cython_debug/
 *.mov
 *.mp4
 .idea/
+./output_videos
